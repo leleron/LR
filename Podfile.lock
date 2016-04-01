@@ -1,0 +1,71 @@
+PODS:
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - EAIntroView (2.8.1):
+    - EARestrictedScrollView (~> 0.2.0)
+  - EARestrictedScrollView (0.2.0)
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - JSONKit (1.4)
+  - MBProgressHUD (0.9.2)
+  - MJRefresh (1.4.7)
+  - OpenUDID (1.0.0)
+  - Reachability (3.2)
+  - RESideMenu (4.0.7)
+  - RFRotate (1.0)
+  - SFHFKeychainUtils (0.0.1)
+  - SGJsonKit (1.2.4)
+  - UIImage+RTTint (1.0.0)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.5)
+  - EAIntroView
+  - FMDB (~> 2.5)
+  - JSONKit
+  - MBProgressHUD
+  - MJRefresh (~> 1.4)
+  - OpenUDID (~> 1.0.0)
+  - Reachability
+  - RESideMenu (~> 4.0)
+  - RFRotate
+  - SFHFKeychainUtils (~> 0.0.1)
+  - SGJsonKit (~> 1.2.4)
+  - UIImage+RTTint (~> 1.0.0)
+
+SPEC CHECKSUMS:
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  EAIntroView: 73abfa89caa311f450af876421d950b96679e845
+  EARestrictedScrollView: f86d61e16c61d3e93c84f8e96e83122a2a3b7631
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  JSONKit: 5b69e804ea54d99293eed0fd2ce596c5703fefb0
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  MJRefresh: 6b140993028fa30f1fcb88e82925a7c7911415cf
+  OpenUDID: e7cb6984c7304906ad20f3a36bf087b025896b6b
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  RESideMenu: f24c508404b49c667344c54aba7e590883533958
+  RFRotate: 6ca9916e0a0111b0d49bef3881e968c4cc74cf82
+  SFHFKeychainUtils: 9576b411a79a058f4d5381ace6f3242b9a62e664
+  SGJsonKit: 9b0a3a2d35781f3455bc1df6e277efe14e7f32ab
+  UIImage+RTTint: b274eeaefaba631e4527317768d3590345267e51
+
+COCOAPODS: 0.39.0

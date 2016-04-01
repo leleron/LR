@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		180013621C046751000D411E /* loginMock.m in Sources */ = {isa = PBXBuildFile; fileRef = 180013611C046751000D411E /* loginMock.m */; };
+		180013651C0467C6000D411E /* loginEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 180013641C0467C6000D411E /* loginEntity.m */; };
+		18CC774B1B1D3E3600F5416B /* WHStringHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CC774A1B1D3E3600F5416B /* WHStringHelper.m */; };
+		18CC774E1B1D7D3500F5416B /* LREntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CC774D1B1D7D3500F5416B /* LREntity.m */; };
+		18CC77541B1D885D00F5416B /* WpGlobalOption.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CC77531B1D885D00F5416B /* WpGlobalOption.m */; };
+		18E83ACA1B1597FA0049AD88 /* LRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E83AC91B1597FA0049AD88 /* LRViewController.m */; };
+		18E83F0A1B183F9B0049AD88 /* LRMock.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E83F091B183F9B0049AD88 /* LRMock.m */; };
+		18E83F0D1B1854720049AD88 /* LRNetOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E83F0C1B1854720049AD88 /* LRNetOperation.m */; };
+		18E83F101B1858110049AD88 /* LRNetResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E83F0F1B1858110049AD88 /* LRNetResponse.m */; };
+		18E83F131B185B2A0049AD88 /* QUJsonParse.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E83F121B185B2A0049AD88 /* QUJsonParse.m */; };
+		18E83F161B185D160049AD88 /* LRBaseRequset.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E83F151B185D160049AD88 /* LRBaseRequset.m */; };
+		4455A316E0F7CF5813AEB0FC /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 705530C8159B9AAA4C750B14 /* libPods.a */; };
 		48EC1C0F1B15523F00267913 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48EC1C0E1B15523F00267913 /* main.m */; };
 		48EC1C121B15523F00267913 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48EC1C111B15523F00267913 /* AppDelegate.m */; };
 		48EC1C151B15523F00267913 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48EC1C141B15523F00267913 /* ViewController.m */; };
@@ -14,6 +26,9 @@
 		48EC1C1A1B15523F00267913 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48EC1C191B15523F00267913 /* Images.xcassets */; };
 		48EC1C1D1B15523F00267913 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48EC1C1B1B15523F00267913 /* LaunchScreen.xib */; };
 		48EC1C291B15523F00267913 /* LRFrameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 48EC1C281B15523F00267913 /* LRFrameTests.m */; };
+		783985021CA26CF4004B8F76 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 783985011CA26CF4004B8F76 /* SecondViewController.m */; };
+		783985071CAA5B0C004B8F76 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783985061CAA5B0C004B8F76 /* test.swift */; };
+		7839850B1CAA62C6004B8F76 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7839850A1CAA62C6004B8F76 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +42,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		180013601C046751000D411E /* loginMock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = loginMock.h; path = login/loginMock.h; sourceTree = "<group>"; };
+		180013611C046751000D411E /* loginMock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = loginMock.m; path = login/loginMock.m; sourceTree = "<group>"; };
+		180013631C0467C6000D411E /* loginEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = loginEntity.h; path = login/loginEntity.h; sourceTree = "<group>"; };
+		180013641C0467C6000D411E /* loginEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = loginEntity.m; path = login/loginEntity.m; sourceTree = "<group>"; };
+		18CC77491B1D3E3600F5416B /* WHStringHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHStringHelper.h; sourceTree = "<group>"; };
+		18CC774A1B1D3E3600F5416B /* WHStringHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHStringHelper.m; sourceTree = "<group>"; };
+		18CC774C1B1D7D3500F5416B /* LREntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LREntity.h; sourceTree = "<group>"; };
+		18CC774D1B1D7D3500F5416B /* LREntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LREntity.m; sourceTree = "<group>"; };
+		18CC77521B1D885D00F5416B /* WpGlobalOption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WpGlobalOption.h; sourceTree = "<group>"; };
+		18CC77531B1D885D00F5416B /* WpGlobalOption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WpGlobalOption.m; sourceTree = "<group>"; };
+		18E83AC81B1597FA0049AD88 /* LRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LRViewController.h; path = base/LRViewController.h; sourceTree = "<group>"; };
+		18E83AC91B1597FA0049AD88 /* LRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LRViewController.m; path = base/LRViewController.m; sourceTree = "<group>"; };
+		18E83ACC1B15B2EB0049AD88 /* LRFrame.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRFrame.pch; sourceTree = "<group>"; };
+		18E83F081B183F9B0049AD88 /* LRMock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRMock.h; sourceTree = "<group>"; };
+		18E83F091B183F9B0049AD88 /* LRMock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRMock.m; sourceTree = "<group>"; };
+		18E83F0B1B1854720049AD88 /* LRNetOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRNetOperation.h; sourceTree = "<group>"; };
+		18E83F0C1B1854720049AD88 /* LRNetOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRNetOperation.m; sourceTree = "<group>"; };
+		18E83F0E1B1858110049AD88 /* LRNetResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRNetResponse.h; sourceTree = "<group>"; };
+		18E83F0F1B1858110049AD88 /* LRNetResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRNetResponse.m; sourceTree = "<group>"; };
+		18E83F111B185B2A0049AD88 /* QUJsonParse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QUJsonParse.h; sourceTree = "<group>"; };
+		18E83F121B185B2A0049AD88 /* QUJsonParse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QUJsonParse.m; sourceTree = "<group>"; };
+		18E83F141B185D160049AD88 /* LRBaseRequset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRBaseRequset.h; sourceTree = "<group>"; };
+		18E83F151B185D160049AD88 /* LRBaseRequset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRBaseRequset.m; sourceTree = "<group>"; };
 		48EC1C091B15523F00267913 /* LRFrame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LRFrame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48EC1C0D1B15523F00267913 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		48EC1C0E1B15523F00267913 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +78,15 @@
 		48EC1C221B15523F00267913 /* LRFrameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LRFrameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		48EC1C271B15523F00267913 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		48EC1C281B15523F00267913 /* LRFrameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRFrameTests.m; sourceTree = "<group>"; };
+		48EC1C331B1563B800267913 /* const.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = const.h; path = ../../const.h; sourceTree = "<group>"; };
+		705530C8159B9AAA4C750B14 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		783985001CA26CF4004B8F76 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		783985011CA26CF4004B8F76 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		783985051CAA5B0B004B8F76 /* LRFrame-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LRFrame-Bridging-Header.h"; sourceTree = "<group>"; };
+		783985061CAA5B0C004B8F76 /* test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
+		7839850A1CAA62C6004B8F76 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D53B3DF7F20FEFCB1D999805 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		FBD6E5A5C635E18BBDF508A6 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4455A316E0F7CF5813AEB0FC /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +108,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1800135F1C046720000D411E /* C */ = {
+			isa = PBXGroup;
+			children = (
+				180013631C0467C6000D411E /* loginEntity.h */,
+				180013641C0467C6000D411E /* loginEntity.m */,
+				180013601C046751000D411E /* loginMock.h */,
+				180013611C046751000D411E /* loginMock.m */,
+			);
+			name = C;
+			sourceTree = "<group>";
+		};
+		1DD3A111CDA3302D12EB5DF8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				705530C8159B9AAA4C750B14 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		42A9CD98FD56E46F7CB2339E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D53B3DF7F20FEFCB1D999805 /* Pods.debug.xcconfig */,
+				FBD6E5A5C635E18BBDF508A6 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		48EC1C001B15523F00267913 = {
 			isa = PBXGroup;
 			children = (
 				48EC1C0B1B15523F00267913 /* LRFrame */,
 				48EC1C251B15523F00267913 /* LRFrameTests */,
 				48EC1C0A1B15523F00267913 /* Products */,
+				42A9CD98FD56E46F7CB2339E /* Pods */,
+				1DD3A111CDA3302D12EB5DF8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,6 +159,8 @@
 		48EC1C0B1B15523F00267913 /* LRFrame */ = {
 			isa = PBXGroup;
 			children = (
+				1800135F1C046720000D411E /* C */,
+				48EC1C321B15530200267913 /* base */,
 				48EC1C101B15523F00267913 /* AppDelegate.h */,
 				48EC1C111B15523F00267913 /* AppDelegate.m */,
 				48EC1C131B15523F00267913 /* ViewController.h */,
@@ -89,6 +169,11 @@
 				48EC1C191B15523F00267913 /* Images.xcassets */,
 				48EC1C1B1B15523F00267913 /* LaunchScreen.xib */,
 				48EC1C0C1B15523F00267913 /* Supporting Files */,
+				783985001CA26CF4004B8F76 /* SecondViewController.h */,
+				783985011CA26CF4004B8F76 /* SecondViewController.m */,
+				783985061CAA5B0C004B8F76 /* test.swift */,
+				783985051CAA5B0B004B8F76 /* LRFrame-Bridging-Header.h */,
+				7839850A1CAA62C6004B8F76 /* ViewController.swift */,
 			);
 			path = LRFrame;
 			sourceTree = "<group>";
@@ -119,6 +204,33 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		48EC1C321B15530200267913 /* base */ = {
+			isa = PBXGroup;
+			children = (
+				18CC77521B1D885D00F5416B /* WpGlobalOption.h */,
+				18CC77531B1D885D00F5416B /* WpGlobalOption.m */,
+				18CC77491B1D3E3600F5416B /* WHStringHelper.h */,
+				18CC774A1B1D3E3600F5416B /* WHStringHelper.m */,
+				18E83F111B185B2A0049AD88 /* QUJsonParse.h */,
+				18E83F121B185B2A0049AD88 /* QUJsonParse.m */,
+				48EC1C331B1563B800267913 /* const.h */,
+				18E83AC81B1597FA0049AD88 /* LRViewController.h */,
+				18E83AC91B1597FA0049AD88 /* LRViewController.m */,
+				18E83ACC1B15B2EB0049AD88 /* LRFrame.pch */,
+				18E83F081B183F9B0049AD88 /* LRMock.h */,
+				18E83F091B183F9B0049AD88 /* LRMock.m */,
+				18E83F0B1B1854720049AD88 /* LRNetOperation.h */,
+				18E83F0C1B1854720049AD88 /* LRNetOperation.m */,
+				18E83F0E1B1858110049AD88 /* LRNetResponse.h */,
+				18E83F0F1B1858110049AD88 /* LRNetResponse.m */,
+				18E83F141B185D160049AD88 /* LRBaseRequset.h */,
+				18E83F151B185D160049AD88 /* LRBaseRequset.m */,
+				18CC774C1B1D7D3500F5416B /* LREntity.h */,
+				18CC774D1B1D7D3500F5416B /* LREntity.m */,
+			);
+			name = base;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +238,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 48EC1C2C1B15523F00267913 /* Build configuration list for PBXNativeTarget "LRFrame" */;
 			buildPhases = (
+				20F97479AA6177F0A44846D2 /* Check Pods Manifest.lock */,
 				48EC1C051B15523F00267913 /* Sources */,
 				48EC1C061B15523F00267913 /* Frameworks */,
 				48EC1C071B15523F00267913 /* Resources */,
+				0420A7A749547FEBE3EE4A8B /* Copy Pods Resources */,
+				B09F12F9977F5F8C0D20EB22 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -163,7 +278,8 @@
 		48EC1C011B15523F00267913 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0630;
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = leron;
 				TargetAttributes = {
 					48EC1C081B15523F00267913 = {
@@ -214,13 +330,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0420A7A749547FEBE3EE4A8B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		20F97479AA6177F0A44846D2 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B09F12F9977F5F8C0D20EB22 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		48EC1C051B15523F00267913 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				783985021CA26CF4004B8F76 /* SecondViewController.m in Sources */,
 				48EC1C151B15523F00267913 /* ViewController.m in Sources */,
+				18CC774B1B1D3E3600F5416B /* WHStringHelper.m in Sources */,
+				18E83F0D1B1854720049AD88 /* LRNetOperation.m in Sources */,
+				18CC77541B1D885D00F5416B /* WpGlobalOption.m in Sources */,
+				783985071CAA5B0C004B8F76 /* test.swift in Sources */,
+				18E83F0A1B183F9B0049AD88 /* LRMock.m in Sources */,
+				18E83F131B185B2A0049AD88 /* QUJsonParse.m in Sources */,
+				180013651C0467C6000D411E /* loginEntity.m in Sources */,
+				7839850B1CAA62C6004B8F76 /* ViewController.swift in Sources */,
+				18CC774E1B1D7D3500F5416B /* LREntity.m in Sources */,
+				18E83F101B1858110049AD88 /* LRNetResponse.m in Sources */,
+				180013621C046751000D411E /* loginMock.m in Sources */,
+				18E83F161B185D160049AD88 /* LRBaseRequset.m in Sources */,
 				48EC1C121B15523F00267913 /* AppDelegate.m in Sources */,
+				18E83ACA1B1597FA0049AD88 /* LRViewController.m in Sources */,
 				48EC1C0F1B15523F00267913 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,7 +451,7 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = NO;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
@@ -284,6 +462,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -316,7 +495,7 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = NO;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
@@ -345,21 +524,38 @@
 		};
 		48EC1C2D1B15523F00267913 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D53B3DF7F20FEFCB1D999805 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				EXECUTABLE_PREFIX = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LRFrame/LRFrame.pch";
 				INFOPLIST_FILE = LRFrame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.leron.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LRFrame/LRFrame-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		48EC1C2E1B15523F00267913 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBD6E5A5C635E18BBDF508A6 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				EXECUTABLE_PREFIX = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LRFrame/LRFrame.pch";
 				INFOPLIST_FILE = LRFrame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.leron.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LRFrame/LRFrame-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -377,6 +573,7 @@
 				);
 				INFOPLIST_FILE = LRFrameTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.leron.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LRFrame.app/LRFrame";
 			};
@@ -392,6 +589,7 @@
 				);
 				INFOPLIST_FILE = LRFrameTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.leron.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LRFrame.app/LRFrame";
 			};
@@ -416,6 +614,7 @@
 				48EC1C2E1B15523F00267913 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		48EC1C2F1B15523F00267913 /* Build configuration list for PBXNativeTarget "LRFrameTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +623,7 @@
 				48EC1C311B15523F00267913 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
